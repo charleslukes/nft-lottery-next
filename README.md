@@ -5,13 +5,13 @@ Lottery NFT with Next.JS.
 **NB:** Ensure you have node (10 - above) installed
 
 - Clone the project
-- run the following
+- run the following command on your terminal
 
 ```bash
 npm install
 ```
 
-- start development by runing
+- start development by running
 
 ```bash
 npm run dev
