@@ -10,14 +10,14 @@ export const nftList: nftListType = [
     description: "Description of the collection of artists",
     rules: "This is the rule of the artist",
     nfts: [
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
     ],
   },
   {
@@ -31,21 +31,21 @@ export const nftList: nftListType = [
     description: "This is the description of the NFTs artists",
     rules: "This is the rule of the new artist",
     nfts: [
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
-      { name: "NFT" },
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
+      {name: "NFT"},
     ],
   },
 ];
 
 export const lotteryList: lotteryListType = [
-  { id: "a1", name: "Lottery", type: "lottery" },
-  { id: "b1", name: "Lottery", type: "lottery" },
+  {id: "a1", name: "Lottery", type: "lottery"},
+  {id: "b1", name: "Lottery", type: "lottery"},
 ];
 
 type nftListType = Array<{

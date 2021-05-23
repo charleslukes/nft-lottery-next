@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import Box from "../components/Box";
 import CustomHead from "../components/Head";
-import { lotteryList, lotteryListType } from "../utils/mockdata";
-import { IClickData } from "../utils/interfaces";
-import { useRouter } from "next/router";
-import { GetStaticProps } from "next";
+import {lotteryList, lotteryListType} from "../utils/mockdata";
+import {IClickData} from "../utils/interfaces";
+import {useRouter} from "next/router";
+import {GetStaticProps} from "next";
 
 const HomeContainer = styled.div`
   h3 {
@@ -26,7 +26,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-export default function Home(props: { lotteries: lotteryListType }) {
+export default function Home(props: {lotteries: lotteryListType}) {
   const router = useRouter();
 
   const handleClick = (e: IClickData) => {

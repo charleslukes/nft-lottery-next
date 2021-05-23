@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import styled from "styled-components";
 import Link from "next/link";
 
@@ -6,10 +6,10 @@ import Box from "../../components/Box";
 import Details from "../../components/Details";
 import Description from "../../components/Description";
 import ViewRulesModal from "../../components/Modal";
-import { IClickData } from "../../utils/interfaces";
+import {IClickData} from "../../utils/interfaces";
 import CustomHead from "../../components/Head";
-import { GetServerSideProps } from "next";
-import { lotteryHeaderType, nftList, nftsType } from "../../utils/mockdata";
+import {GetServerSideProps} from "next";
+import {lotteryHeaderType, nftList, nftsType} from "../../utils/mockdata";
 import Modal from "react-modal";
 
 // styles
@@ -93,7 +93,7 @@ export default function Lottery(props: {
         }}
       />
 
-      <Description {...{ content: props.data.description }} />
+      <Description {...{content: props.data.description}} />
       <div className="box-container">
         {props.data.nftList.map((data, index) => (
           <Box
