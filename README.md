@@ -1,4 +1,4 @@
-Lottery NFT with Next.JS.
+# Lottery NFT with Next.JS.
 
 ## Getting Started
 
