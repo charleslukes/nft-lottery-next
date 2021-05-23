@@ -30,6 +30,7 @@ export default function Home(props: {lotteries: lotteryListType}) {
   const router = useRouter();
 
   const handleClick = (e: IClickData) => {
+    // dynamically routes to the lottery page
     router.push(`/${e.type}/${e.id}`);
   };
 

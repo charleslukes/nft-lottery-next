@@ -48,6 +48,7 @@ export const lotteryList: lotteryListType = [
   {id: "b1", name: "Lottery", type: "lottery"},
 ];
 
+// typings for the mock data
 type nftListType = Array<{
   id: string;
   lotteryHeader: lotteryHeaderType;

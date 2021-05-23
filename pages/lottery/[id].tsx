@@ -24,6 +24,7 @@ const LotteryInfoContainer = styled.div`
 `;
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
+  // gets the id
   const id = context?.params?.id;
   let data;
 
@@ -60,22 +61,28 @@ export default function Lottery(props: {
     nftList: nftsType;
   };
 }) {
+  // sets modal default to false
   const [modalIsOpen, setIsOpen] = useState(false);
 
+  // appends the modal to the body
   Modal.setAppElement("body");
 
+  // opens modal
   const openModal = () => {
     setIsOpen(true);
   };
 
+  // close modal
   const closeModal = () => {
     setIsOpen(false);
   };
 
+  // onclick handler
   const handleClick = (e: IClickData) => {
     console.log(e);
   };
 
+  // triggers open modal
   const ModalClick = () => {
     openModal();
   };
